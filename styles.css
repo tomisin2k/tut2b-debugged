@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* styling for the body*/
+body {
+  background-color: #3B44F6;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+/* styling for the inputs*/
+input {
+  margin: 5px;
+  padding: 10px 0 10px 30px;
+  width: 250px;
+  text-align: left;
+  border: none;
+  border-style: none;
+  border-radius: 3px;
+}
+
+button:hover
+/* form style*/
+form {
+  margin-bottom: 50px;
+}
+/* heading style*/
+h1 {
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+/* Text styling*/
+p {
+  margin-top: 1px;
+}
+/* button style  */
+button {
+  padding: 10px 20px 10px;
+  font-stretch: extra-expanded;
+  color: blue;
+  margin: 7px 0 7px;
+  width: 120px;
+  font-weight: bolder;
+}
+/* anchor link style*/
+a {
+  color: white;
+  margin-top: 100px;
+}
+  /* This responsible for making the information on the screen fit centerly*/
+.titlePage {
+  text-align: center;
+  padding-top: 150px;
+
+}
+/* This is responsible for the mobile responsivesness*/
+@media screen and (max-width: 768px) {
+   body {
+        text-align: center;
+        padding-bottom: 100px;
+   }
+
+.titlePage {
+  text-align: center;
+}
+button {
+  text-align: center;
+}
+
+}
